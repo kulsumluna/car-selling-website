@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Selling Website</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+/>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <!-- custom css file link-->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- header section start -->
+  <header class="header">
+  
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+
+    <a href="#" class="logo" ><span>max</span>wheels</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">services</a>
+        <a href="#featured">featured</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contact">contact</a>
+    </nav>
+   <div id="login-btn">
+    <button class="btn">Login</button>
+    <i class="far fa-user"></i>
+   </div>
+  </header>
+
+
+
+   <!-- header section end -->
+
+   <!-- login form -->
+
+
+   <div class="login-form-container">
+
+    <span class="fas fa-times" id="close-login-form"></span>
+
+    <!-- <form action=""> -->
+        <form action="data.php" method="post">
+        <h3>User Login</h3>
+        <input type="Email" name="email" placeholder="Email" class="box" required="required">
+        <input type="Password" name="password" placeholder="Password" class="box" required="required">
+        <p>forget your password <a href="#">Click Here</a></p>
+        <input type="submit" value="login now" name="btn"  class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn">google</a>
+            <a href="#" class="btn">facebook</a>
+        </div>
+        <p>Don't have an account <a href="#">Create one</a></p>
+    </form>
+   </div>
+    
+
+<!-- Home section Starts -->
+
+<section class="home" id="home">
+    <h1 class="home-parallax" data-speed="-2">find your car</h1>
+   <img  class="home-parallax" data-speed="5" src="image/home.jpg" alt="">
+   <a href="#" class="btn home-parallax" data-speed="7">explore cars</a>
+
+</section>
+
+<!-- Home section Ends -->
+
+
+<!-- icon section start -->
+
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>150+</h3>
+            <p>branches</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>4770+</h3>
+            <p>car sold</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>590+</h3>
+            <p>happy clients</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>890+</h3>
+            <p>new cars</p>
+        </div>
+    </div>
+
+
+</section>
+<!-- icon section end -->
+
+
+<!-- vehicles section stars -->
+<section class="vehicles" id="vehicles">
+<h1 class="heading">popular <span>vehicles</span></h1>
+<div class="swiper vehicles-slider">
+
+    <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+            <img src="image/bmw1.jpg" alt="">
+            <div class="content">
+                <h3>new model</h3>
+                <div class="price"> <span>price: </span> $3500/- </div>
+                <p>
+                    new
+                    <span class="fas fa-circle"></span> 2023
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image/car2.jpg" alt="">
+            <div class="content">
+                <h3>new model</h3>
+                <div class="price"> <span>price: </span> $8800/- </div>
+                <p>
+                    new
+                    <span class="fas fa-circle"></span> 2023
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide box">
+            <img src="image/bmw2.jpg" alt="">
+            <div class="content">
+                <h3>new model</h3>
+                <div class="price"> <span>price: </span> $5000/- </div>
+                <p>
+                    new
+                    <span class="fas fa-circle"></span> 2023
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide box">
+            <img src="image/bmw3.jpg" alt="">
+            <div class="content">
+                <h3>new model</h3>
+                <div class="price"> <span>price: </span> $8500/- </div>
+                <p>
+                    new
+                    <span class="fas fa-circle"></span> 2023
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+           
+
+        <div class="swiper-slide box">
+            <img src="image/bmw8.jpg" alt="">
+            <div class="content">
+                <h3>new model</h3>
+                <div class="price"> <span>price: </span> $9000/- </div>
+                <p>
+                    new
+                    <span class="fas fa-circle"></span> 2021
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image/bmw7.jpg" alt="">
+            <div class="content">
+                <h3>new model</h3>
+                <div class="price"> <span>price: </span> $6500/- </div>
+                <p>
+                    new
+                    <span class="fas fa-circle"></span> 2021
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+</section>
+
+<!-- vehicles section end -->
+
+
+<!-- services section start -->
+
+<section class="services" id="services">
+    <h1 class="heading"> our <span>services</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>car selling</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, ducimus.</p>
+        <a href="#" class="btn">read more</a>
+        </div>
+
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>parts repair</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, ducimus.</p>
+        <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>car insurance</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, ducimus.</p>
+        <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-battery"></i>
+            <h3>battery replacement</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, ducimus.</p>
+        <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>oil change</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, ducimus.</p>
+        <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, ducimus.</p>
+        <a href="#" class="btn">read more</a>
+        </div>
+</div>
+</section>
+<!-- services section end -->
+
+
+<!-- featured section start -->
+<section class="featured" id="featured">
+    <h1 class="heading"> <span>featured</span> cars </h1>
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/f4.jpg" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/car2.jpg" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/f1.jpg" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+  <div class="swiper-slide box">
+                <img src="image/f2.jpg" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/bmw5.png" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/bmw3.jpg" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/bmw2.jpg" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+          <div class="swiper-slide box">
+                <img src="image/bmw1.jpg" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- featured section end -->
+
+<!-- newslatter section start -->
+
+<section class="newletter">
+    <h3>subcribe for latest updates</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ut?</p>
+    <form action="">
+        <input type="email" placeholder="enter your email" name="" id="">
+        <input type="submit" class="subscribe" name="" id="">
+    </form>
+</section>
+
+<!-- newslatter section end -->
+
+
+<!-- reviews section start -->
+
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> client's <span>review</span></h1>
+
+ <div class="swiper reviews-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+            <img src="image/kul.jpg" alt="">
+            <div class="content">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Amet optio labore deserunt dignissimos esse expedita ullam ipsam unde itaque veniam!</p>
+             <h3>kulsum islam</h3>
+
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image/ayesha.jpg" alt="">
+            <div class="content">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Amet optio labore deserunt dignissimos esse expedita ullam ipsam unde itaque veniam!</p>
+             <h3>ayesha</h3>
+
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper-slide box">
+            <img src="image/biva.jpg" alt="">
+            <div class="content">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Amet optio labore deserunt dignissimos esse expedita ullam ipsam unde itaque veniam!</p>
+             <h3>mohosina biva</h3>
+
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image/sanji.jpg" alt="">
+            <div class="content">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Amet optio labore deserunt dignissimos esse expedita ullam ipsam unde itaque veniam!</p>
+             <h3>sanjin nahar</h3>
+
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image/mohosina.jpg" alt="">
+            <div class="content">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Amet optio labore deserunt dignissimos esse expedita ullam ipsam unde itaque veniam!</p>
+             <h3>mohsina akter</h3>
+
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="image/uma.jpg" alt="">
+            <div class="content">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Amet optio labore deserunt dignissimos esse expedita ullam ipsam unde itaque veniam!</p>
+             <h3>umama urmi</h3>
+
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+ </div>
+</section>
+<!-- reviews section end -->
+
+<!-- contact section start -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+<div class="row">
+    
+    <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.895928138367!2d72.8304247479031!3d19.14167048464963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047%2C%20India!5e0!3m2!1sen!2sbd!4v1695263228699!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+   
+    <form action="data.php" method="post">
+        <h3>get in touch</h3>
+        <input type="text" placeholder="Name" class="box" name="name" required="required">
+        <input type="email" placeholder="Email" class="box" name="email" required="required">
+        <input type="number" placeholder="Number" class="box"name="phone" required="required">
+        <textarea required="required" placeholder="Message" class="box" name="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" name="btn" class="btn">
+
+    </form>
+
+</div>
+
+</section>
+
+
+<!-- contact section end -->
+
+
+
+<!-- footer section start -->
+
+<section class="footer">
+
+<div class="box-container">
+    <div class="box">
+        <h3>our branches</h3>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> america </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+    </div>
+
+
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> vehicles </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+    </div>
+
+
+    <div class="box">
+        <h3>phone & email</h3>
+        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+        <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+        <a href="#"> <i class="fas fa-envelope"></i> kulsumislamdmpi@gmail.com </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai , india - 40010 </a>
+   
+    </div>
+
+    <div class="box">
+        <h3>quick media</h3>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#"> <i class="fab fa-instagram"></i>  instagram </a>
+        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+   
+    </div>
+
+
+
+</div>
+<div class="credit"> create by Group F all members  | all rights reserved! </div>
+
+</section>
+<!-- footer section end -->
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!--custom java script link-->
+    <script src="js/script.js"></script>
+</body>
+</html>
